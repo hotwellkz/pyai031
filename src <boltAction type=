@@ -1,0 +1,12 @@
+@@ .. @@
+         <Route path="/lesson/variables-introduction" element={
+           <ProtectedRoute>
+             <VariablesLesson />
+           </ProtectedRoute>
+         } />
++        <Route path="/lesson/oop-introduction" element={
++          <ProtectedRoute>
++            <OOPLesson />
++          </ProtectedRoute>
++        } />
+         <Route path="/pricing" element={<Pricing />} />
